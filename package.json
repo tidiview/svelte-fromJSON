@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "licence": "MIT",
   "author": "François VIDIT",
+  "private": false,
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -15,6 +16,7 @@
   "type": "module",
   "dependencies": {
     "prosemirror-model": "^1.14.1",
-    "prosemirror-schema-basic": "^1.1.2"
+    "prosemirror-schema-basic": "^1.1.2",
+    "prosemirror-state": "^1.3.4"
   }
 }
