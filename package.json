@@ -1,6 +1,8 @@
 {
-  "name": "~TODO~",
+  "name": "svelte-fromJSON",
   "version": "0.0.1",
+  "licence": "MIT",
+  "author": "François VIDIT",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -10,5 +12,8 @@
     "@sveltejs/kit": "next",
     "svelte": "^3.34.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "prosemirror-model": "^1.14.1"
+  }
 }

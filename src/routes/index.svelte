@@ -3,7 +3,7 @@
         let article;
 
         try {
-        // here we are gonna fetch the single article
+        // here we fetch a single article
             article = await fetch(`https://api.francois-vidit.fr/posts/ja/iehamotomoto`);
             article = await article.json();
         } catch (e) {
